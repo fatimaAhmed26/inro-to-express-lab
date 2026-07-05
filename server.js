@@ -34,7 +34,9 @@ app.get('/roll/:num', function(req,res){
     app.get('/collectibles/:index' ,function(req,res){  
      let index = req.params.index
         if (collectibles [index]){
-            res.send(collectibles[index])
+            res.send(`So, you want the ${(collectibles[index].name)} ? For ${(collectibles[index].price)}, it can be yours!`)
+                     console.log(collectibles[index].price)
+
          } else{
             res.send('This item is not yet in stock. Check back soon!')
          }
