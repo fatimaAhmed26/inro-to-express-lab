@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/fatimaAhmed26/inro-to-express-lab/issues"
   },
-  "homepage": "https://github.com/fatimaAhmed26/inro-to-express-lab#readme"
+  "homepage": "https://github.com/fatimaAhmed26/inro-to-express-lab#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.11.0"
+  }
 }
